@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Diary of Truth</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="noticia.css">
+</head>
+<body>
+
+<header>
+  <h1>The Diary of Truth</h1>
+  <p>Edição de Hoje 23/03/26 </p>
+</header>
+
+<main class="container">
+
+  <section class="principal">
+    <h2>Notícia Urgente!!</h2>
+    <p></p>
+  </section>
+
+  <div class="colunas">
+    
+    <div class="coluna-esquerda">
+      <section class="coluna">
+        <h3>Demanda da inteligência artificial pode pressionar oferta de energia nos EUA, diz executiva do Google</h3>
+        <p>Executiva da Alphabet afirma que o país pode não expandir a geração de eletricidade na mesma velocidade da demanda da inteligência artificial; empresa investe em energia nuclear e outras soluções para seus centros de dados. </p>
+      <a href="https://g1.globo.com/tecnologia/noticia/2026/03/23/demanda-da-inteligencia-artificial-pode-pressionar-oferta-de-energia-nos-eua-diz-executiva-do-google.ghtml" class="meu-botao">Leia Sobre:</a>
+    </section>
+
+      <section class="coluna">
+        <h3>6 conselhos de especialistas sobre como falar com a IA para obter as melhores respostas</h3>
+        <p>
+Para obter o que você quer de forma rápida e eficiente, especialistas em inteligência artificial recomendam, entre outras coisas, dar exemplos e manter a neutralidade.
+</p>
+<a href="https://g1.globo.com/tecnologia/noticia/2026/03/22/6-conselhos-de-especialistas-sobre-como-falar-com-a-ia-para-obter-as-melhores-respostas.ghtml" class="meu-botao">Leia Sobre:</a>
+      </section>
+    </div>
+
+    <div class="coluna-direita">
+      <section class="coluna">
+        <h3>Os homens serão extintos? A verdade sobre o cromossomo Y</h3>
+        <p>Cromossomo que determina o sexo masculino vem perdendo genes há 180 milhões de anos e desaparece das células dos mais velhos. Mas, entre manchetes apocalípticas e dados reais, a ciência revela um quadro mais complexo. </p>
+      <a href="https://g1.globo.com/ciencia/noticia/2026/03/22/os-homens-serao-extintos-a-verdade-sobre-o-cromossomo-y.ghtml" class="meu-botao">Leia Sobre:</a>
+    </section>
+
+      <section class="coluna">
+        <h3>O que aconteceu com a cruz em que Jesus morreu?</h3>
+        <p>A crucificação e a morte de Jesus na cruz estão entre os eventos centrais do cristianismo. Diversas igrejas ao redor do mundo afirmam ter um fragmento da chamada 'verdadeira cruz'. Mas como elas conseguiram essas relíquias?</p>
+      <a href="https://g1.globo.com/mundo/noticia/2025/04/18/o-que-aconteceu-com-a-cruz-em-que-jesus-morreu.ghtml" class="meu-botao">Leia Sobre:</a>
+    </section>
+
+      <section class="coluna">
+        <h3>Terra em desequilíbrio: ONU alerta para impactos climáticos que vão durar séculos</h3>
+        <p>Relatório mostra que os últimos 11 anos foram os mais quentes já registrados. ONU destaca que dependência de combustíveis fósseis desestabiliza o clima e a segurança global.</p>
+        <a href="https://g1.globo.com/meio-ambiente/noticia/2026/03/23/terra-em-desequilibrio-onu-alerta-para-impactos-climaticos-que-vao-durar-seculos.ghtml" class="meu-botao">Leia Sobre:</a>
+      </section>
+    </div>
+
+  </div>
+
+</main>
+<style>
+    body {
+  background-color: #f4ecd8; /* papel */
+  font-family: "Georgia", serif;
+  color: #2b2b2b;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+
+/* título do jornal */
+header {
+  font-family: "PlayFair Display", serif;
+    text-align: center;
+  border-bottom: 3px double black;
+  margin-bottom: 20px;
+}
+
+header h1 {
+   font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+/* manchete */
+.principal {
+   font-family: "New Times Roman", serif;
+    grid-column: span 3;
+  border-bottom: 2px solid black;
+   font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+/*efeito envelhecido 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  opacity: 0.3;
+  pointer-events: none;
+}*/
+  
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* coluna da esquerda */
+.coluna-esquerda {
+  padding-right: 40px;
+   border-right: 2px double #444;/* LINHA NO MEIO */
+}
+
+/* coluna da direita */
+.coluna-direita {
+  padding-left: 1px;
+  
+}
+
+
+/*linha minimalista*/
+.coluna {
+  margin-bottom: 20px;
+  
+}
+
+.coluna h3 {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+} 
+
+
+
+    p {
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: justify; /* MUITO melhor */
+  margin: 5px 0;
+}
+
+.principal {
+  text-align: center;
+  margin-bottom: 30px;
+}
+</style>
+<script src="script.js"></script>
+</body>
+</html>
