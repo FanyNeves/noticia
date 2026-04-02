@@ -9,7 +9,7 @@ body {
 
 /* título do jornal */
 header {
-  font-family: "Playfair Display", serif; /* Corrigido: era "PlayFair" */
+  font-family: "Playfair Display", serif; 
   text-align: center;
   border-bottom: 3px double black;
   margin-bottom: 20px;
@@ -23,11 +23,11 @@ header h1 {
 
 /* manchete */
 .principal {
-  font-family: "Times New Roman", serif; /* Corrigido: era "New Times Roman" */
+  font-family: "Times New Roman", serif; 
   grid-column: span 3;
   border-bottom: 2px solid black;
   font-size: 24px;
-  text-align: center; /* Funciona aqui */
+  text-align: center; 
   margin-bottom: 30px;
 }
 
@@ -39,7 +39,7 @@ header h1 {
 /* coluna da esquerda */
 .coluna-esquerda {
   padding-right: 40px;
-  border-right: 2px double #444; /* LINHA NO MEIO */
+  border-right: 2px double #444; 
 }
 
 /* coluna da direita */
